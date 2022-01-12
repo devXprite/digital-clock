@@ -1,15 +1,11 @@
 import './App.css';
-import Navbar from './Components/Navbar';
-import About from './Components/About';
+import Clock from './Components/Clock';
 
-
-var myName = 'Prateek';
 
 function App() {
   return (
     <>
-      <Navbar title="React App"/>
-      <About/>
+      <Clock/>
     </>
   );
 }

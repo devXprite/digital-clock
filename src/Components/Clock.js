@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import "./clock.css"
 
 export default function Clock() {
 
@@ -26,13 +27,13 @@ export default function Clock() {
 
     return (
         <>
-            <div className="outer">
-                <div className="inner">
-                    <div className="most-inner">
+            <div className="clock">
+                {/* <div className="outer"> */}
+                    <div className="inner">
                         <span className="time"> {time} </span>
                         <span className="amPm"> {amPm} </span>
                     </div>
-                </div>
+                {/* </div> */}
             </div>
         </>
     )

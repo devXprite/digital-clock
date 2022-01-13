@@ -1,7 +1,17 @@
 {
-  "name": "my-react-app",
+  "name": "digital-clock",
+  "description": "This is a simple digital clock using react js.",
   "version": "0.1.0",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7ORP3DO/digital-clock.git"
+  },
+  "author": "7ORP3DO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/7ORP3DO/digital-clock/issues"
+  },
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",

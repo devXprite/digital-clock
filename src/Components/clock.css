@@ -1,23 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
 .clock {
-    background-color: #121212;
-    background-color: #121212;
-    width: 90%;
-    max-width: 600px;
-    height: 25vh;
-    border-radius: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Orbitron', sans-serif;
-    box-shadow: #000 4px 4px 8px;
+  background-color: #12121277;
+  width: 90%;
+  max-width: 600px;
+  height: 25vh;
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  box-shadow: #000 4px 4px 8px, #5c5c5c -2px -2px 4px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px #242424 solid;
+  color: lime;
+  font-weight: bold;
 }
 
-.clock .inner .time{
-    font-size: 2.2em;
+.clock .inner .time {
+  font-size: 2.2em;
 }
 
-.clock .inner .amPm{
-    font-size: 1.5em;
+.clock .inner .amPm {
+  font-size: 1.5em;
 }

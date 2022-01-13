@@ -1,27 +1,18 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import moment from 'moment';
 import "./clock.css"
+
+moment().format();
 
 export default function Clock() {
 
-    const takeTwelve = n => n > 12 ? n - 12 : n;
-    const addZero = n => n < 10 ? "0" + n : n;
-
     const [time, setTime] = useState('00:00:00');
     const [amPm, setAmPm] = useState('am');
-
+    
     setInterval(() => {
-        let d, h, m, s, t, amPm;
 
-        d = new Date();
-        h = addZero(takeTwelve(d.getHours()));
-        m = addZero(d.getMinutes());
-        s = addZero(d.getSeconds());
-        t = `${h}:${m}:${s}`;
-
-        amPm = d.getHours() >= 12 ? "pm" : "am";
-
-        setTime(t);
-        setAmPm(amPm);
+        setTime(moment().format("hh:mm:ss"));
+        setAmPm(moment().format('a'));
 
     }, 1000);
 

@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Clock/>
-      <ParticlesBg type="ball" bg={true} />
+      <ParticlesBg type="fountain" bg={true} num={2} />
     </>
   );
 }

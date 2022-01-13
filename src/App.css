@@ -10,3 +10,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.particles-bg-canvas-self{
+  background: #121212;
+}

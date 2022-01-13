@@ -3,25 +3,25 @@
 .clock {
   background-color: #12121277;
   width: 90%;
-  max-width: 600px;
-  height: 25vh;
+  max-width: 700px;
+  height: 30vh;
   border-radius: 1em;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  flex-direction:column;
   font-family: "Orbitron", sans-serif;
   box-shadow: #000 4px 4px 8px, #5c5c5c -2px -2px 4px;
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border: 1px #242424 solid;
   color: lime;
-  font-weight: bold;
 }
 
-.clock .inner .time {
-  font-size: 2.2em;
+.clock .time {
+  font-size: 2.5em;
 }
 
-.clock .inner .amPm {
+.clock .amPm {
   font-size: 1.5em;
 }

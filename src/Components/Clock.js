@@ -8,7 +8,7 @@ export default function Clock() {
 
     const [time, setTime] = useState('00:00:00');
     const [amPm, setAmPm] = useState('am');
-    const [date, setDate] = useState(moment().format("dddd, MMMM Do YYYY"));
+    const [date, setDate] = useState(moment().format("dddd, Do MMMM YYYY"));
 
     setInterval(() => {
 
@@ -26,8 +26,8 @@ export default function Clock() {
                     <span className="time"> {time} </span>
                     <span className="amPm"> {amPm} </span>
                 </div>
-                <div className="date">
-                    <span>{date} </span>
+                <div >
+                    <span className="date">{date} </span>
                 </div>
             </div>
         </>

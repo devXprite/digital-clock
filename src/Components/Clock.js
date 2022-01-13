@@ -15,7 +15,6 @@ export default function Clock() {
         setTime(moment().format("hh : mm : ss"));
         setAmPm(moment().format('a'));
 
-
     }, 1000);
 
 

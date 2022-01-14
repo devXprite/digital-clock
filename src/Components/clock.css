@@ -3,7 +3,7 @@
 .clock {
   background-color: #12121277;
   width: 90%;
-  max-width: 700px;
+  max-width: 760px;
   height: 30vh;
   border-radius: 1em;
   display: flex;
@@ -15,7 +15,8 @@
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border: 1px #242424 solid;
-  color: lime;
+  color: #0ff;
+  text-shadow: #0ff 1px 1px 4px;
 }
 
 .clock .time {
